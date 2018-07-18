@@ -9,7 +9,7 @@ int main(void)
 {
     struct timeval stop, start;
     gettimeofday(&start, NULL);
-    unsigned int count;
+    long int count;
     for( count=0; count <= 1000000; count++) {
         labs(count);
     }
